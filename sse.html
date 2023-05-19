@@ -1,0 +1,745 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ *{
+  border-sizing:border-box;
+ 
+ 
+ }
+ body{
+ 
+      background-color:white;
+	   padding 0;
+	   margin:0;
+
+}
+
+.top {
+    width: 100%;
+    height: 110px;
+    background:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+h1, h2, h3, h4, h5, h6, ul, ol, li, div {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-image: none;
+}
+p{
+text-align:left;
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0 auto;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: 微软雅黑;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 auto;
+    
+    font-size: 14px;
+    color: #444444;
+    overflow: Scroll;
+}
+.img2{
+
+  margin-top:1.5%;
+  margin-left:1%;
+
+}
+
+.search{
+float:right;
+
+}
+.para{
+margin-left: 12%;
+color: white;
+font-size: 26px;
+margin-top:-4%;
+font-family: 微软雅黑;
+
+}
+	#btn1{
+float:right;
+margin-top:25px;
+margin-right:10px;
+background: #F4D03F;
+    border: #ffdead;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    outline: none;
+    padding: 0.3rem 1rem;
+
+}
+#btn1:hover
+{
+background-color:#5DADE2;
+}
+a{
+text-decoration:none;
+color:white;
+}
+#btn2{
+float:right;
+margin-top:25px;
+margin-right:10px;
+background: #F4D03F;
+    border: #ffdead;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    outline: none;
+    padding: 0.3rem 1rem;
+}
+#btn2:hover{
+background-color:#5DADE2;
+}
+a{
+text-decoration:none;
+color:white;
+}
+#navbar1{
+margin-top:10px;
+height:10%;
+width:100%;
+background-color:#5DADE2;
+}
+#a3{
+display:inline-flex;
+margin-left:20px;
+margin-top:10px;
+font-size: 20;
+color: white;
+font-family: bold;
+}
+#two
+{
+float:right;
+color:white;
+}
+.fa-facebook {  
+  font-size: 20px;
+  margin-right: 30px;
+  font-weight:20px;
+
+  
+        color: white; } 
+.fa-instagram {  
+      font-size: 20px;
+	  margin-top:10px;
+  margin-right: 60px;
+  margin-left:10px;
+  font-weight:20px;
+	  color: white;
+	  }
+	  
+	 
+	 #col-5{
+ float:left;
+ color:#223555;
+ margin-left:60px;
+ margin-top:50px;
+ height:40%;
+ width:50%;
+ font-size:26;
+ }
+ #col-8{
+ float:right;
+ height:50%;
+ width:40%;
+
+ }
+	
+	#eng{
+height:400px;
+
+}
+		h1
+{    margin-top:-13px;
+  font-size: 54;
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+		h3{
+font-size:20px;
+}
+h4{
+font-size:30px;
+margin-left:10px;
+background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+		#btn3{
+float:left;
+margin-top:25px;
+margin-left:180px;
+background: #F4D03F;
+    border: #ffdead;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    outline: none;
+    padding: 0.3rem 1rem;
+}
+#btn3:hover{
+background-color:#5DADE2;
+}
+a{
+text-decoration:none;
+color:white;
+}
+.comingsoon-loading {
+  font-family: 'Poppins', sans-serif;
+  margin-top:0vh;
+  padding: 0;
+  background-color:#CAD6E2;
+  box-sizing: border-box;
+  display: flex;
+  margin-left:20px
+  justify-content: center;
+  align-items: center;
+  min-height: 35vh;
+}
+
+.comingsoon-loading h5{
+  position: absolute;
+  margin-right:200px;
+  font-size: 10vh;
+  color:#b4e900 ;
+  -webkit-text-stroke: 2px black;
+  text-transform: uppercase;
+}
+
+.comingsoon-loading h5::before {
+  content: attr(data-text);
+  position: absolute;
+  margin-top:0%;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: black;
+  -webkit-text-stroke: 0px black;
+  border-right: 4px solid black;
+  overflow: hidden;
+  animation: animate 8s linear infinite;
+}
+
+/* animation to fill text */
+
+@keyframes animate
+{
+  0%,10%,100%
+  {
+    width: 0;
+  }
+  50%,70%
+  {
+    width: 100%;
+  }
+}
+
+
+#wd{
+width:190px;
+float:left;
+}
+.st1{
+margin-top:9px;
+width:100%;
+height:80%;
+background-color:#F1F5F8;
+}
+.st2{
+display:inline-flex;
+width:100%;
+background-color:#CAD6E2;
+}
+#img1{
+vertical-align: middle;
+height:300px;
+margin-left:2pxpx;
+border: 10px solid #B4E900;
+border-radius: 50%;
+}
+h2 {
+  
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#img1:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#col-3{
+margin-top:6%;
+margin-left:2%;
+margin-right:1%;
+}
+.st3{
+width:100%;
+background-color:#EACDAE;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+margin-top:5px;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#img3{
+vertical-align: middle;
+
+border: 10px solid #B4E900;
+border-radius: 10%;
+}
+#cpst{
+margin-top:20px;
+margin-left:70px
+}
+#40{
+width:100%;
+
+background-color:#C48063;
+}
+
+#st5
+{
+background-color:#C48063;
+float:left;
+text-align:center;
+margin-top:5%;
+margin-left:10%;
+width:30%;
+height:30%;
+}
+#st6
+{
+background-color:#C48063;
+float:right;
+margin-top:10%;
+text-align:center;
+margin-right:10%;
+width:50%;
+height:20%;
+}
+#st7{
+
+background-color:#C48063;
+width:100%;
+
+}
+#st8{
+background-color:#C48063;
+width:100%;
+height:50%;
+float
+
+}
+#st9{
+display:inline-flex;
+background-color:#C48063;
+width:100%;
+}
+#img4{
+margin-top:10%;
+height:150px;
+vertical-align: middle;
+
+border: 10px solid #EACDAE;
+border-radius: 10%;
+}
+#img5{
+margin-top:10%;
+height:250px;
+width:100%;
+vertical-align: middle;
+
+border: 10px solid #EACDAE;
+border-radius: 10%;
+}
+#sts{
+display:inline-flex;
+background-color:#EACDAE;
+width:100%;
+}
+#img6{
+margin-top:7%;
+height:250px;
+width:70%;
+vertical-align: middle;
+border: 10px solid #EACDAE;
+border-radius: 10%;
+}
+
+
+#btn4{
+float:left;
+margin-top:5px;
+margin-left:100px;
+background: #F4D03F;
+    border: #ffdead;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    outline: none;
+    padding: 0.3rem 1rem;
+}
+#btn4:hover{
+background-color:#5DADE2;
+}
+#d4{
+background-color:#CAD6E2;
+margin-top:0px;
+height:80vh;
+width:100%;
+}
+#btn5{
+margin-left:45%;
+margin-top:10px;
+background: #F4D03F;
+    border: #ffdead;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 500;
+    
+    outline: none;
+    padding: 1.3rem 5rem;
+}
+#btn5:hover{
+background-color:green;
+}
+#d4{
+background-color:#CAD6E2;
+margin-top:0px;
+height:80vh;
+width:100%;
+}
+p{
+margin-right:10px;
+line-height:1.8;
+}
+#d5{
+
+margin-top:20px;
+margin-right:0px;
+float: Right;
+height:80vh;
+width:50%;
+}
+#d6{
+
+margin-top:10px;
+margin-left:50px;
+float: left;
+height:80vh;
+width:30%;
+}
+#img2{
+margin-top:40px;
+height:400px;
+width:400px;
+
+}
+#d7{
+background-color:#03326A;
+height: 80vh;
+width:100%;
+}
+</style>
+
+
+ 
+</head>
+<body>
+<div class="top">
+    <div class="logo">
+	
+	<button id="btn1"><a href=" https://eportal.iub.edu.pk/applicants/register" > Enroll Now </a></button>
+	<button id="btn2"> my iub </button>
+	</div>
+        <a title="The college of computer science" href="../">
+<!-- logo -->
+		</a><a href="https://www.iub.edu.pk/" ><img class="img2" src="C:\Users\Super\Desktop\website\SE.png" width="8%" height="70%" border="0"></a>
+  
+						<p class= "para">
+					DEPARTMENT OF SOFTWARE ENGINEERING
+										</p></div>
+										
+<div id="navbar1" class="flex">
+<ul>
+<li id="a3"> <a href=""> HOME</li>
+<li id="a3"> <a href=""> WORKSHOP</li>
+<li id="a3"> <a href="">RESEARCH</li>
+<li id="a3"> <a href="">SEMINAR</li>
+<li id="a3"> <a href="">ABOUT</li>
+<p id="two">
+<a  class="fa fa-facebook" ></a>  
+<a class="fa fa-instagram"> </a>
+</P>
+
+</ul>
+</div>
+<div class="st1">
+
+	<div id="col-5" >
+	<p> <h3>The Department of </h3><hr id="wd"><br><h1 >Software Engineering</h1> <h3>Empowering You to Change the World with Code - Join IUB's BS and MS Programs in Software Engineering.</h3>
+
+</p>
+	<br><br><button id="btn3"><a href=" https://eportal.iub.edu.pk/applicants/register" > Enroll Now </a></button>
+	</div>  
+	<div id="col-8">
+	<img id="eng"src="C:\Users\Super\Desktop\website\header.png">
+</div>	 
+</div>
+<div  class="comingsoon-loading">
+      <h5 data-text="Always Be Ceartive">Always Be Ceartive</h5>
+</div>
+
+<div class="st2">
+<div id="col-3">
+<figure>
+<img id="img1"src="C:\Users\Super\Desktop\website\vc-dr-prof.jpeg">
+  <figcaption id="cpst"> <b><u>Vice Chanceller of <br>The IUB Bahawalpur<br></u></b>
+
+<h2>Engr. Dr. Prof Athar Mehboob (TI)</h2></figcaption></figure>
+</div>
+<div id="col-3">
+<figure>
+<img id="img1"src="C:\Users\Super\Desktop\website\img-4.jpg">
+<figcaption id="cpst"> <b><u>DEAN of<br> Faculty of Computing</u></b>
+<h2>Prof. Dr. Muhammad Hussain Tahir</h2></figcaption>
+</figure>
+</div>
+<div id="col-3">
+<figure>
+<img id="img1" src="C:\Users\Super\Desktop\website\1667134273991.jpeg">
+  <figcaption id="cpst"> <b><u>Chairman of <br>Department of SE<br></u></b>
+<h2>Dr Nadeem Akhtar</h2></figcaption>
+</figure>
+<br> <br><br><br>
+</div>
+
+</div>
+
+<div class="st3"><br> <br>
+<center><h4> //Our Honourable Teachers</h4></center>
+<div class="row">
+  <div class="column">
+    <figure>
+	<img id="img3" src="C:\Users\Super\Desktop\website\thumb-daler-1638340928.jpg" alt="teacher Image" style="margin-left:30px">
+	<figcaption id="cpst" > <b><u>Lecturer <br>PhD (Doctor of Philosophy in Computer Science)<br></u></b>
+<h2>Dr. Malik Daler Ali Awan</h2></figcaption>
+
+	</figure>
+  </div>
+  <div class="column">
+  <figure>
+    <img  id="img3" src="C:\Users\Super\Desktop\website\thumb-gulraiz-1596785819.jpg" alt="teacher Image" style="margin-left:30px">
+	<figcaption id="cpst"> <b><u>Lecturer <br>PhD (Doctor of Philosophy in Computer Science)<br></u></b>
+<h2>Dr Nadeem Akhtar</h2>
+	</figure>
+  </div>
+  <div class="column">
+  <figure>
+    <img  id="img3" src="C:\Users\Super\Desktop\website\thumb-pp-1597056050.jpg" alt="teacher Image " style="margin-left:30px">
+  <figcaption id="cpst"> <b><u>Lecturer <br>PhD (Doctor of Philosophy in Computer Science)<br></u></b>
+<h2>Dr Nadeem Akhtar</h2></figcaption>
+  </figure>
+  </div>
+  
+   <div class="row">
+    <div class="column">
+	<figure>
+    <img id="img3" src="C:\Users\Super\Desktop\website\sir.jpg" alt="teacher Image" style="margin-left:20%">
+	<figcaption style="margin-left:20%""> <b><u>Associate Professor  <br>Deputy Director (QEC) PhD-Computer Science <br></u></b>
+<h2>Dr. Syed Rafaqat Hussain</h2></figcaption>
+</figure>
+  </div>
+  <div class="column">
+  <figure>
+    <img id="img3" src="C:\Users\Super\Desktop\website\thumb-unnamed-1598432355.jpg" alt="teacher Image" style="margin-right:30px">
+	<figcaption style="margin-right:30%""> <b><u>Associate Professor  <br>Deputy Director <br>(QEC) PhD-Computer Science <br></u></b>
+<h2>Dr. Syed Rafaqat Hussain</h2></figcaption>
+</figure>
+  </div>
+</div>
+</div>
+<br><br>
+</div>
+
+
+
+<div id="st7"> 
+<div id="st5">
+<h4>**Why choose SE in IUB?</h4>
+</div>
+<div id="st6">
+<p style="font-size: 20px">
+Looking to engineer your way to the top? Choose Software Engineering at IUB, 
+where our experienced faculty, cutting-edge resources, and real-world projects will 
+give you a rock-solid foundation in the latest software engineering technologies and practices. 
+Don't just build code – build a career with Software Engineering at IUB.</p>
+</div>
+</div>
+<div id="st8">
+</div>
+<div id="st9"> <h4>//The possibilities are beyond your imagination</h4> </div>
+<div id="st9">
+<figure>
+<img  id="img4" src="C:\Users\Super\Desktop\website\IMG_5164_0.JPG" alt="teacher Image " style="margin-left:20px">
+  <figcaption id="cpst"> 
+<h2>Student life</h2></figcaption><br><br>
+<p style=" margin-left:30px">
+Student life in IUB isn’t just lectures and assignments. 
+Our labs are equipped with cutting-edge technology, 
+providing an immersive experience for students to learn and experiment with the latest software tools.
+ </p>
+  </figure>
+  
+ <figure>
+<img  id="img4" src="C:\Users\Super\Desktop\website\08.jpg" alt="teacher Image " style="margin-left:10px">
+  <figcaption id="cpst"> 
+<h2>Current Students</h2></figcaption><br><br>
+<p style=" margin-left:30px">
+As a current student, you'll have access to our cutting-edge labs, state-of-the-art software, and exceptional faculty. 
+you'll have access to our cutting-edge labs, state-of
+ </p>
+  </figure>
+  <figure>
+<img  id="img4" src="C:\Users\Super\Desktop\website\lab1.jpg" alt="teacher Image " style="margin-left:30px">
+  <figcaption id="cpst"> 
+<h2>Computer Labs</h2></figcaption><br><br>
+<p style=" margin-left:30px">
+With a rigorous curriculum, we prepare students with technical skills and principles for success in the field.
+ Our tailored education and research opportunities equip students for their chosen career path.
+ </p>
+ <br><br><br><br><br>
+  </figure> 
+  
+</div>
+<div id="sts"> <center><h4>/News And Events</h4> </center></div>
+<div id="sts">
+<figure>
+<img  id="img5" src="C:\Users\Super\Desktop\website\believeit.jpg" alt="teacher Image " style="margin-left:20px">
+  <figcaption id="cpst"> 
+<h2>Webinar - Believe it or Not</h2></figcaption><br><br>
+<p style=" margin-left:90px">
+How your mindset can help you shift from
+<br><br>
+ </p>
+ <button id="btn4"><a href=" https://eportal.iub.edu.pk/applicants/register" > Read More </a></button>
+  <br><br><br><br><br>
+  </figure>
+  
+ <figure>
+<img  id="img5" src="C:\Users\Super\Desktop\website\techbost.7b4a0cec7655651d68fa.jpg" alt="teacher Image " style="margin-left:10px">
+  <figcaption id="cpst"> 
+<h2>Tech Boost Workshop</h2></figcaption><br><br>
+<p style=" margin-left:90px">
+Dynamic workshop on web development and
+<br><br>
+ </p>
+ <button id="btn4"><a href=" https://eportal.iub.edu.pk/applicants/register" > Read More </a></button>
+  <br><br><br><br><br>
+  </figure>
+  <figure>
+<img  id="img6" src="C:\Users\Super\Desktop\website\interview.75a55ddb1c70ffedbd0c.jpg" style="margin-left:30px">
+  <figcaption id="cpst"> 
+<h2>Interview For SE Student Club</h2></figcaption><br><br>
+<p style=" margin-left:90px">
+Interview for the Student Socity Leader
+ <br><br>
+ </p>
+ <button id="btn4"><a href=" https://eportal.iub.edu.pk/applicants/register" > Read More </a></button>
+ <br><br><br><br><br>
+  </figure> 
+</div>
+<div id= "d4">
+<center><h2>About Department</h2></center>
+<div id="d5">
+
+<p style="font-size:20px">
+The BS in SE degree equips students with theoretical as well as technical knowledge of the fundamentals of software engineering, algorithm analysis, data structures, programming languages, web development, and mobile application development.<br>
+
+There are courses in Software Quality Assurance in order to ensure software correctness, reliability and safety, with the goal to produce high-quality software.<br>
+
+Courses are Software Requirement Engineering, Software Design and Architecture, Software Construction and Development, Formal Methods in Software Engineering, Empirical Software Engineering, and Software Reverse Engineering etc equip students with the theoretical foundation and technical knowledge of software development.
+
+Do you want to st
+</p>
+</div>
+<div id="d6">
+<img  id="img2" src="C:\Users\Super\Desktop\website\iub.jpg" style="margin-left:30px">
+</div>
+</div>
+  <div id="d7">
+ <center><h1>Do you want to step into the future before others</h1></center>
+ 
+  <button id="btn5"><a href=" https://eportal.iub.edu.pk/applicants/register" > Enrolled NOW </a></button>
+  </div>
+  
+</body>
+
+</html>
